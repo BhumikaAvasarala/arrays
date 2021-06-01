@@ -1,0 +1,23 @@
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int a[5]={13,24,5,67,8};
+	sort(a,a+5);
+//	sort(a,a+5,greater<int>());
+	for(int i=0;i<5;i++)
+	{
+	    cout<<a[i]<<" ";
+	}
+	cout<<"\n";
+	sort(a,a+5,greater<int>());
+	{
+	    	for(int i=0;i<5;i++)
+	{
+	    cout<<a[i]<<" ";
+	}
+	}
+	
+	return 0;
+}
